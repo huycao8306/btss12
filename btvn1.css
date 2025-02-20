@@ -1,0 +1,21 @@
+select.form-select {
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 200px;
+    
+}
+select.form-select:focus {
+    outline: 2px solid #9fc6ff; 
+}
+option {
+    background-color: #ff6347;
+    color: white;
+}
+option:checked {
+    background-color: #2c73de; 
+    color: rgb(176, 138, 138);
+}
